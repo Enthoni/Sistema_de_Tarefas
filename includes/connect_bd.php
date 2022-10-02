@@ -1,9 +1,9 @@
 <?php
 //Conexão com banco de dados
-$servername = "mysql://bd7020b47692f4:0df04a05@us-cdbr-east-06.cleardb.net/heroku_41bde1c4a089318?reconnect=true"; 
-$username="CLEARDB_DATABASE_URL";
-$password="BatataFrita@123";
-$db_name="sistemaTarefa";
+$servername = "mysqlserver.cib20duaag8c.us-east-1.rds.amazonaws.com"; 
+$username="admin";
+$password="10062003";
+$db_name="teste";
 
 //pdo - somente orientado objeto
 $connect =mysqli_connect($servername,$username,$password,$db_name);
